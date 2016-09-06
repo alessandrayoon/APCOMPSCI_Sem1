@@ -1,0 +1,22 @@
+	
+
+         To create my ASCII Art, I first created a new text file and renamed it
+to become a java one. I then opened up Notepad++ and transfered my newly
+created java (secondPRog.java) to begin making my art. I first copied the 
+standard opening for the program(public class secondProg). Then I openend 
+a new set of brackets and started the first line of my first ASCII art. I 
+googled some examples of art and found a website that had varying degrees 
+of difficulty in the art. I opted for a less complicated one as my first try 
+and selected a rabbit consisting of 7 lines. I made sure to double up on the
+backslashes when necessary as well as any other symbols that the computer 
+"didn't like". Though it took a few tries and quite a few frustrating failures, I 
+finally got my first ASCII art program done and ready to run. After selecting 
+Javacompile then Javaexecute, I got somewhat of a rabbit. I had to adjust the 
+font to correct the spacing as well as go back into the original program script 
+to add more spaces manually in order to have the image line up. After saving it,
+I went on to create my next ASCII art entitled, very creatively, thirdProg. I did 
+this one very similarly yo my last and followed the same steps I did before. I 
+made sure to copy the beginning section and add all the correct backslashes, semi-
+colons, and brackets. This one went much more smoothly and the four line penguin 
+I created came out almost perfectly on the first try. 
+
