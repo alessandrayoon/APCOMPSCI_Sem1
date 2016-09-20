@@ -4,6 +4,8 @@ public class APLab_04
 {
 	public static void main(String[]args)
 	{
+		APLab_04 form= new APLab_04();
+		
 		//instantiate the new Scanner object "keyboard"
 		Scanner keyboard = new Scanner(System.in);
 		
@@ -48,18 +50,20 @@ public class APLab_04
 		
 		
 		System.out.println("<<<<<<<<<<__Receipt__>>>>>>>>>>>");
-		form.format(word1, price1);
-		form.format(word2, price2);
-		form.format(word3, price3);
+		form.format(item1, price1);
+		form.format(item2, price2);
+		form.format(item3, price3);
 		
 		double subTotal = price1+price2 +price3;
 		double Tax = subTotal* 0.08;
-		double total = subTotal+ tax;
+		double total = subTotal + Tax;
 		form.format("Subtotal", subTotal);
 		form.format("Tax", Tax);
 		form.format("Total", total);
 		
 		
+		System.out.println("\n");
+		System.out.println("* Thank you for your support *");
 		
 	}
 	
