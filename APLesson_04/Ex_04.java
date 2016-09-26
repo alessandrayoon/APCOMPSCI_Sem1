@@ -28,8 +28,8 @@ public class Ex_04
 		System.out.printf("Your volume in cubic feet is %10.2f\n " ,formula );
 	}
 	
-	public double calcVol (double h, double l, double w)
+	public double calcVol (double height, double length, double width)
 	{
-		return (l*w*h/(1728));
+		return (length*width*height/(1728));
 	}
 }
