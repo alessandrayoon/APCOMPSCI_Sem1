@@ -1,8 +1,8 @@
 import java.util.Scanner; //import Statement
 public class Rectangle
 {
-	static double length;
-	static double width;
+	static double l;
+	static double w;
 	static double perimeter;
 	
 	
@@ -13,25 +13,24 @@ public class Rectangle
 		Scanner keyboard = new Scanner(System.in);
 		
 		System.out.println("Please enter the length:");
-		double l = keyboard.nextDouble();
+		l = keyboard.nextDouble();
 		
 		System.out.println("Please enter the width:");
-		double w = keyboard.nextDouble();
+		w = keyboard.nextDouble();
 		
-		System.out.println("Please enter the perimeter:");
-		double p = keyboard.nextDouble();
+	
 		
-		print();
+		
 		calcPerim();
-		
+		print();
 	}
 	public static void calcPerim()
 	
 	{
-		return length*width*perimeter;
+		 perimeter = (2*l) + (2*w);
 	}
 	public static void print()
 	{
-		System.out.printf("Your rectangle is %1.5f ft around.\n", calcPerim());
+		System.out.printf("Your rectangle is %1.5f ft around.\n", perimeter);
 	}
 }
