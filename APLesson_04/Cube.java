@@ -26,7 +26,7 @@ public class Cube
 	public static void calcSurfaceArea()
 	
 	{
-		 surfacearea = Math.pow(6*side,2);
+		 surfacearea = 6*Math.pow(side,2);
 	}
 	public static void print()
 	{
