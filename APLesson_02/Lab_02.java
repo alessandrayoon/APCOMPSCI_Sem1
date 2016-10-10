@@ -15,7 +15,7 @@ public class Lab_02
 		
 		System.out.println(a);
 		System.out.println(b);
-		System.out.println(c + "," + d);
+		System.out.println(c + " " + d);
 		
 		int l = 1;
 		int w = 2;
