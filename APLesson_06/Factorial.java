@@ -7,8 +7,14 @@ public class Factorial
 		System.out.println("Please enter a number: ");
 		int number = kb.nextInt();
 		int factorial  = 1;
-		for(int i = 0; i < word.length(); i++)
+		for(int i = 2; i <= number; i++)
+			factorial = factorial*i;
 		
+		
+		{
+			System.out.println(factorial);
+			
+		}
 		
 	}
 }
