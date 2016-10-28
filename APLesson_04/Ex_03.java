@@ -34,6 +34,6 @@ public class Ex_03
 	
 	public double interest (double rate, double principal, double number, double time)
 	{
-		return (principal*Math.pow(1+rate/number, number*time));
+		return ((principal*Math.pow(1+rate/number, number*time))/(12*time));
 	}
 }
