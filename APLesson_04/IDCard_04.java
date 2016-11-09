@@ -32,7 +32,7 @@ public class IDCard_04
 		System.out.println("Enter the school year:");
 	   
 	   //prompt for user input
-		int year = keyboard.nextInt();
+		String year = keyboard.nextLine();
 		
 	   System.out.println("What is your subject?");
 	   
@@ -42,14 +42,16 @@ public class IDCard_04
 		String subject = keyboard.nextLine();
 		
 		System.out.println("********************");
-		form.card(first, last, title, site, year, subject);
+		form.card(first, last);
+		form.card(title, site);
+		form.card(year, subject);
 		System.out.println("\n");
 		System.out.println("********************");
 		
 	}
-	public void card(String first, String last, String title, String site, int year, String subject)
+	public void card(String first, String last)
 	{
-		System.out.printf("*%s %13s* \n*%s %9s* \n*%s %13s*", first, last , title,  site, year, subject);
+		System.out.printf("* %20s  %20s *", first, last);
 	}
 	
 }

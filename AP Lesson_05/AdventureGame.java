@@ -7,5 +7,6 @@ public classc AdventureGame
 		System.out.println("Would you like to go on an adventure? If yes  ");
 		String word = kb.next();
 		
+		
 	}
 }

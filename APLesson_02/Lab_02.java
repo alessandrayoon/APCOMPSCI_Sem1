@@ -11,11 +11,13 @@ public class Lab_02
 		String a = "Alessandra Yoon";
 		String b = "4617 Corte Sol Del Dios";
 		String c = "San Diego";
+		String e = "California ";
+		
 		String d = "92130";
 		
 		System.out.println(a);
 		System.out.println(b);
-		System.out.println(c + " " + d);
+		System.out.println(c + " " + e + d);
 		
 		int l = 1;
 		int w = 2;
