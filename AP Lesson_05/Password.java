@@ -28,18 +28,15 @@ public class Password
 				System.out.println("Your password is incorrect!");
 				recursive(username, password);
 			}
+			else if (!(inputuser.equals(username))&&(inputpass.equals(password)))
+			{
+				System.out.println("Your username is incorrect!");
+				recursive(username, password);
+			}
 			else
 			{
-				if (!(inputuser.equals(username))&&(inputpass.equals(password)))
-				{
-					System.out.println("Your username is incorrect!");
-					recursive(username, password);
-				}
-				else
-				{
-					System.out.println("Your username and password are incorrect!");
-					recursive(username, password);
-				}
+				System.out.println("Your username and password are incorrect!");
+				recursive(username, password);
 			}
 		}
 	}

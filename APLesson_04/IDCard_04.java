@@ -51,7 +51,7 @@ public class IDCard_04
 	}
 	public void card(String first, String last)
 	{
-		System.out.printf("* %20s  %20s *", first, last);
+		System.out.printf("* %20s  %20s *\n", first, last);
 	}
 	
 }
