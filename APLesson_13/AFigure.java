@@ -1,9 +1,10 @@
-public abstract class AFigure extends Toy
+public class AFigure extends Toy
 {
-	public AFigure ()
-	{
-	super();
+	public String AFigure; 
 	
+	public AFigure()
+	{
+		super();
 	}
 	
 	public AFigure(String n)
@@ -15,6 +16,4 @@ public abstract class AFigure extends Toy
 	{
 		return "Action Figure";
 	}
-	
-
 }
