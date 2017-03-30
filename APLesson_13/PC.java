@@ -1,15 +1,9 @@
-public class PC extends GameSystems
-{ 
-	private String controller; 
-	
-	public PC()
-	{
-		super();
-	}
-	
+public class PC extends GameSystem
+{		
 	public PC(String p)
 	{
 		super(p);
+		
 	}
 	
 	public String systemInput()
@@ -17,8 +11,9 @@ public class PC extends GameSystems
 		return "Keyboard and Mouse";
 	}
 	
+	
 	public String toString()
 	{
-		return "Platform: " + getPlatform() + "\nSerial #: " + getserialNo() + "\nSystem Input: " + systemInput();
+		return "Platform: " + platform + "\nSerial #: " + getsN()+ "\nSystem Input: " + systemInput() + "\n";
 	}
 }

@@ -1,24 +1,18 @@
 public class XBox extends Console
 {
-	
-	public XBox()
-	{
-		super();
-	}
-	
-	public XBox(String p)
+
+	public Xbox(String p)
 	{
 		super(p);
 	}
 	
-	
 	public String getController()
 	{
-		return "XBox Wireless Controller";
+		return "Xbox Wireless Controller";
 	}
 	
 	public String getPlatform()
 	{
-		return "XBox";
+		return "Xbox";
 	}
 }

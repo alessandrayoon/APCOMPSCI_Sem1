@@ -2,14 +2,12 @@ public class GameRunner
 {
 	public static void main(String[]args)
 	{
-		Playstation alessandra = new Playstation("cool");
-		System.out.println(alessandra);
+		PlayStation alessandra = new PlayStation("playstation");
+		XBox meghan = new XBox("Xbox");
+		PC josh = new PC("PvZ");
 		
-		XBox lauren = new XBox("hello");
-		System.out.println(lauren);
-		
-		PC yoon = new PC("minecraft");
-		System.out.println(yoon);
-		
-	}	
+		System.out.println(alessandra.toString());
+		System.out.println(meghan.toString());
+		System.out.println(josh.toString());
+	}
 }

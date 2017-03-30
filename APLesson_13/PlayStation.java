@@ -1,23 +1,19 @@
-public class Playstation extends Console
+public class PlayStation extends Console
 {
+
 	
-	public Playstation()
-	{
-		super();
-	}
-	
-	public Playstation(String p)
+	public PlayStation(String p)
 	{
 		super(p);
 	}
 	
 	public String getController()
 	{
-		return "PS DualShock 3";
+		return "PS Dual Shock 3!!!!";
 	}
 	
 	public String getPlatform()
 	{
-		return "PlayStation";
+		return "Playstation";
 	}
 }

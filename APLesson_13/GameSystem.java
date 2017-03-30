@@ -1,28 +1,38 @@
-import java.lang.Math.*;
-public class GameSystems
+public class GameSystem
 {
-	private String platform;
+	public String platform;
 	private int serialNo;
 	
-	public GameSystems()
+	public GameSystem()
 	{
-		this.platform = "";
-		this.serialNo = (int)(Math.random()*900000) + 1000000;
+		this.platform =  "";
+		this.serialNo = (int)(Math.random() * 1000000);
 	}
 	
-	public GameSystems(String p)
+	public GameSystem(String p)
+	{
+		this.platform =  p;
+		this.serialNo = (int)(Math.random() * 1000000) ;
+	}
+	
+	
+	public String getplatform()
+	{
+		return this.platform;
+	}
+	
+	public int getsN()
+	{
+		return this.serialNo;
+	}
+	
+	public void setplatform(String p)
 	{
 		this.platform = p;
-		this.serialNo = (int)(Math.random()*900000) + 1000000;
-	}	
-
-	public String getPlatform()
-	{
-		return platform;
 	}
 	
-	public int getserialNo()
+	public void setsN(int serialNo)
 	{
-		return serialNo;
+		this.serialNo = (int)(Math.random() * 1000000);
 	}
 }
